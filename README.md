@@ -9,6 +9,7 @@ Deployable micro-architecture showcasing the intersection of classical system pr
 on (https://vercel.com).
 
 "https://alpaca-mcp-trading-agent-myaotcyix-agentic-alpha2.vercel.app"
+"https://vercel.com/agentic-alpha2/echologic-voice-agent"
 
 *Live link updating soon*
 
