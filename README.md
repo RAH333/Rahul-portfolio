@@ -47,7 +47,9 @@ Whether you want to discuss AI Agent capabilities, physical system modeling, or 
 
 
 
-
+```
+npx plugins add vercel/vercel-plugin
+```
 
 
 
