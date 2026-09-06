@@ -7,7 +7,7 @@ This architecture uses clean, semantic HTML and modern Tailwind CSS (via CDN).
 ## Project Directory Structure
 To deploy this cleanly to Vercel, organize your local folder exactly like this:
 ```
-my-portfolio/
+Rahul-portfolio/
 │
 ├── index.html        # Main landing page & professional portfolio
 ├── project.html      # Dedicated page for your AssemblyAI Voice Agent hackathon project
