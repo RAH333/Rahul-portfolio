@@ -6,13 +6,13 @@ As a 2019 Mechanical Engineering graduate from Rajasthan Technical University (R
 This architecture uses clean, semantic HTML and modern Tailwind CSS (via CDN).
 ## Project Directory Structure
 To deploy this cleanly to Vercel, organize your local folder exactly like this:
-
+```
 my-portfolio/
 │
 ├── index.html        # Main landing page & professional portfolio
 ├── project.html      # Dedicated page for your AssemblyAI Voice Agent hackathon project
 └── vercel.json       # Configuration file for clean Vercel routing
-
+```
 ------------------------------
 ## Component Source Codes## 1. index.html (Main Portfolio Page)
 Create a file named index.html and paste the following code. It includes sections for your Mechanical Engineering background, your pivot to AI, your skills, and placeholders for your social links.
