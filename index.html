@@ -41,18 +41,16 @@
                 <a href="#contact" class="border border-slate-700 hover:border-slate-500 text-slate-300 px-6 py-3 rounded-lg transition-all">Get In Touch</a>
             </div>
         </div>
-        <!-- Decorative Vector Graphic -->
+        
+        <!-- Profile Image Block -->
         <div class="hidden md:block md:w-1/3">
-            <div class="w-72 h-72 rounded-3xl bg-gradient-to-tr from-teal-500 to-blue-600 opacity-20 blur-2xl absolute"></div>
-            <div class="relative border border-slate-800 bg-slate-900/50 backdrop-blur rounded-2xl p-6 text-left shadow-2xl">
-                <div class="flex gap-2 mb-4">
-                    <span class="w-3 h-3 rounded-full bg-red-500"></span>
-                    <span class="w-3 h-3 rounded-full bg-yellow-500"></span>
-                    <span class="w-3 h-3 rounded-full bg-green-500"></span>
+            <div class="relative border-2 border-slate-800 bg-slate-900 rounded-2xl overflow-hidden shadow-2xl group">
+                <!-- Replace profile.jpg inside your assets/ folder with your photo or digital avatar logo -->
+                <img src="assets/profile.jpg" alt="Professional Profile" class="w-full h-auto object-cover filter contrast-105 saturate-95 pointer-events-none" />
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-60"></div>
+                <div class="absolute bottom-4 left-4 right-4">
+                    <span class="text-xs font-mono text-teal-400 bg-slate-900/90 border border-slate-800 px-2 py-1 rounded">RTU B.Tech Mech</span>
                 </div>
-                <code class="text-xs text-teal-400 block mb-2">// RTU Kota Graduate (2019)</code>
-                <code class="text-xs text-cyan-400 block mb-2">const currentFocus = "AssemblyAI Voice Hackathon";</code>
-                <code class="text-xs text-slate-400 block">console.log("Building the future of automation...");</code>
             </div>
         </div>
     </section>
@@ -144,4 +142,4 @@
                             Building a production-ready conversational AI voice agent leveraging AssemblyAI's voice intelligence frameworks. Engineered to streamline operations and provide low-latency voice logic.
                         </p>
                         <div class="flex flex-wrap gap-2 mb-4">
-                          
+                            <span class="text-xs bg-slate-800 text-slate-300 px-2 py-1 rounded">AssemblyAI</span>
