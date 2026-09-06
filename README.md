@@ -38,9 +38,13 @@ To deploy this cleanly to Vercel, organize your local folder exactly like this:
 ```
 Rahul-portfolio/
 │
-├── index.html        # Main landing page & professional portfolio
-├── project.html      # Dedicated page for your AssemblyAI Voice Agent hackathon project
-└── vercel.json       # Configuration file for clean Vercel routing
+├── assets/
+│   └── profile.jpg       # Your professional headshot, logo, or avatar
+│
+├── index.html            # Main portfolio
+├── project.html          # Hackathon voice agent breakdown
+├── vercel.json           # Clean URL configuration
+└── README.md             # NEW: Recruiter documentation for your GitHub landing page
 ```
 
 
